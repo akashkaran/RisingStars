@@ -12,7 +12,7 @@ def make_soup(url):
 
 csv="All_Players.csv"
 file = open(os.path.expanduser(csv),"wb")
-header="Player,Span,Mat,Inns,NO,Runs,R/N,HS,Ave,BF,SR,100,50,0,4s,6s"+"\n"
+header="Player,Span,Mat,Inns,NO,Runs,R/I,HS,Ave,BF,SR,100,50,0,4s,6s"+"\n"
 file.write(bytes(header,encoding="ascii",errors='ignore'))
 pg=1;
 for pg in range(1,7):   #Page Iterations

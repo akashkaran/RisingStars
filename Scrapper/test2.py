@@ -10,15 +10,15 @@ def make_soup(url):
         return soupdata
 #1      2    3   4    5   6   7   8   9  10  11  12  13  14  15
 #Player,Span,Mat,Inns,NO,Runs,HS,Ave,BF ,SR, 100,50, 0,  4s, 6s
-csv="Test2.csv"
+csv="Testing_data.csv"
 file = open(os.path.expanduser(csv),"wb")
 header="Player,Span,Years,Inns,NO/I,R/I,Avg,SR,100/I,50/I,6+4/BF"+"\n"
 file.write(bytes(header,encoding="ascii",errors='ignore'))
 pg=1;
 for pg in range(1,2):   #Page Iterations
-        list_pl = make_soup("http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=25;agemin1=20;ageval1=age;"+
+        list_pl = make_soup("http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=24;agemin1=20;ageval1=age;"+
         "batting_positionmax1=7;batting_positionval1=batting_position;class=2;filter=advanced;orderby=runs;page="+str(pg)+";"+
-        "size=50;spanmax1=31+Dec+2016;spanmin1=01+Jan+2001;spanval1=span;template=results;type=batting;wrappertype=print")
+        "size=50;spanmax2=31+Dec+2017;spanmin2=1+Jan+2017;spanval2=span;template=results;type=batting;wrappertype=print")
         tdata=list_pl.findAll("table",{"class":"engineTable"})
         cdata=tdata[2]  #main Table data
         ldata=cdata.findAll("tr",{"class":"data1"})
