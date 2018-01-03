@@ -2,11 +2,11 @@ import pandas as pd
 
 from pandas import DataFrame,read_csv
 
-Location = r'C:\Users\kiran\Downloads\Span.csv'
+Location = r'C:\Users\kiran\Desktop\mlpractice\rawdata.csv'
 
 df = pd.read_csv(Location)
 df['Class']= 'NA'
-nopi_median = df['NO/I'].median()
+hs_median = df['HS'].median()
 rpi_median = df['R/I'].median()
 avg_median = df['Avrg'].median()
 sr_median = df['SR'].median()
@@ -15,7 +15,7 @@ fpi_median = df['50/I'].median()
 bpbf_median = df['6+4/BF'].median()
 max_inns =df['Inns'].max()
 min_inns = df['Inns'].min()
-print("NOPI median = %s"%(nopi_median))
+print("hs median = %s"%(hs_median))
 print("RPI median = %s"%(rpi_median))
 print("AVG median = %s"%(avg_median))
 print("SR median = %s"%(sr_median))
@@ -29,7 +29,7 @@ print(min_inns)
 
 # calculating median for each features
 df1 = df[(df['Inns']>=10)&(df['Inns']<=50)]
-nopi_median1 = df1['NO/I'].median()
+hs_median1 = df1['HS'].median()
 rpi_median1 = df1['R/I'].median()
 avg_median1 = df1['Avrg'].median()
 sr_median1 = df1['SR'].median()
@@ -38,7 +38,7 @@ fpi_median1 = df1['50/I'].median()
 bpbf_median1 = df1['6+4/BF'].median()
 max_inns =df1['Inns'].max()
 min_inns = df1['Inns'].min()
-print("NOPI median = %s"%(nopi_median1))
+print("HS median = %s"%(hs_median1))
 print("RPI median = %s"%(rpi_median1))
 print("AVG median = %s"%(avg_median1))
 print("SR median = %s"%(sr_median1))
@@ -50,19 +50,21 @@ print(min_inns)
 
 #labelling players as RS or NRS using algorithm
 for index,row in df1.iterrows():
-    if(row['NO/I']>=nopi_median1):
-        if((row['Avrg']<avg_median1)and(row['SR'])<sr_median1):
+    if(row['SR']>=sr_median1):
+        if((row['Avrg']<avg_median1)and(row['R/I']<rpi_median1)):
             df1.loc[index,'Class']='NRS'
         else:
             count=0;
-            if(row['NO/I']>=nopi_median1):
+            if(row['HS']>=hs_median1):
+                count += 1
+            if(row['100/I']>=hpi_median1):
                 count=count+1
             if(row['50/I']>=fpi_median1):
-                count=count+1
+                count += 1
             if(row['6+4/BF']>=bpbf_median1):
-                count=count+1
+                count += 1
 
-            if(count>=2):
+            if(count>2):
                 df1.loc[index,'Class']='RS'
             else:
                 df1.loc[index,'Class']='NRS'
@@ -70,15 +72,15 @@ for index,row in df1.iterrows():
     else:
         df1.loc[index,'Class']='NRS'
 
-print(df1.count())
-print(df1[df1['Class']=='RS'].count())
-print(df1[df1['Class']=='NRS'].count())
+print(df1.count().values[0])
+print(df1[df1['Class']=='RS'].count().values[0])
+print(df1[df1['Class']=='NRS'].count().values[0])
 
 # labelling data set For 51 to 99 innings
 
 # calculating median for each features
 df2 = df[(df['Inns']>=51)&(df['Inns']<=99)]
-nopi_median2 = df2['NO/I'].median()
+hs_median2 = df2['HS'].median()
 rpi_median2 = df2['R/I'].median()
 avg_median2 = df2['Avrg'].median()
 sr_median2 = df2['SR'].median()
@@ -87,31 +89,33 @@ fpi_median2 = df2['50/I'].median()
 bpbf_median2 = df2['6+4/BF'].median()
 max_inns =df2['Inns'].max()
 min_inns = df2['Inns'].min()
-print("NOPI median = %s"%(nopi_median2))
-print("RPI median = %s"%(rpi_median2))
-print("AVG median = %s"%(avg_median2))
-print("SR median = %s"%(sr_median2))
-print("HPI median = %s"%(hpi_median2))
-print("FPI median = %s"%(fpi_median2))
-print("BPBF median = %s"%(bpbf_median2))
+print("HS median2 = %s"%(hs_median2))
+print("RPI median2 = %s"%(rpi_median2))
+print("AVG median2 = %s"%(avg_median2))
+print("SR median2 = %s"%(sr_median2))
+print("HPI median2 = %s"%(hpi_median2))
+print("FPI median2 = %s"%(fpi_median2))
+print("BPBF median2 = %s"%(bpbf_median2))
 print(max_inns)
 print(min_inns)
 
 #labelling players as RS or NRS using algorithm
 for index,row in df2.iterrows():
-    if(row['NO/I']>=nopi_median2):
-        if((row['Avrg']<avg_median2)and(row['SR'])<sr_median2):
+    if(row['SR']>=sr_median2):
+        if((row['Avrg']<avg_median2)and(row['R/I']<rpi_median2)):
             df2.loc[index,'Class']='NRS'
         else:
             count=0;
-            if(row['NO/I']>=nopi_median2):
+            if(row['HS']>=hs_median2):
+                count=count+1
+            if(row['100/I']>=hpi_median2):
                 count=count+1
             if(row['50/I']>=fpi_median2):
                 count=count+1
             if(row['6+4/BF']>=bpbf_median2):
                 count=count+1
 
-            if(count>=2):
+            if(count>2):
                 df2.loc[index,'Class']='RS'
             else:
                 df2.loc[index,'Class']='NRS'
@@ -119,14 +123,19 @@ for index,row in df2.iterrows():
     else:
         df2.loc[index,'Class']='NRS'
 
-print(df2.count())
-print(df2[df2['Class']=='RS'].count())
-print(df2[df2['Class']=='NRS'].count())
+print("Df2 total count %d"%(df2.count().values[0]))
+print("Df2 rs count%d"%(df2[df2['Class']=='RS'].count().values[0]))
+print("Df2 nrs cpunt%d"%(df2[df2['Class']=='NRS'].count().values[0]))
 
 
 frames = [df1,df2]
 finaldf = pd.concat(frames)
-print(finaldf.count())
-print(finaldf[finaldf['Class']=='RS'].count())
-finaldf.sort_values(['R/I'],ascending=[False], inplace=True)
-#finaldf.to_csv('traindataset.csv',index='false',header='false')
+print("Finaldf count:")
+print(finaldf.count().values[0])
+print("Finaldf RS count")
+print(finaldf[finaldf['Class']=='RS'].count().values[0])
+print("Finaldf NRS count")
+print(finaldf[finaldf['Class']=='NRS'].count().values[0])
+
+finaldf.sort_values(['id'],ascending=[True], inplace=True)
+finaldf.to_csv('finaltraindataset.csv',mode = 'w')
