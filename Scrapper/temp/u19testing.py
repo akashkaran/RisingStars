@@ -13,10 +13,10 @@ def make_soup(url):
 
 #1      2    3   4    5   6   7   8   9  10  11  12  13  14  15
 #Player,Span,Mat,Inns,NO,Runs,HS,Ave,BF ,SR, 100,50, 0,  4s, 6s
-csv="U19Testing_data.csv"9
+csv="U19Testing_data.csv"
 file = open(os.path.expanduser(csv),"wb")
 #       1       2   3    4   5   6  7     8    9
-header="Player,Inns,NO/I,R/I,Avg,SR,100/I,50/I,6+4/BF"+"\n"
+header="Player,Inns,R/I,HS,Avg,SR,100/I,50/I,6+4/BF"+"\n"
 file.write(bytes(header,encoding="ascii",errors='ignore'))
 pg=1;
 for pg in range(1,11):   #Page Iterations
@@ -44,12 +44,14 @@ for pg in range(1,11):   #Page Iterations
                                 elif i == 4:               #2 Inns
                                         t=int(k)
                                         k=k+","
-                                elif i == 5:               #3 No/I
-                                        no=int(k)/t
-                                        k=str(no)+","
+                                #elif i == 5:              #3 No/I
+                                #        no=int(k)/t
+                                #       k=str(no)+","
                                 elif i == 6:               #4 R/I
                                         ty=int(k)/t
                                         k=str(ty)+","
+                                elif i==7 :                #1 HS
+                                        k=k+","
                                 elif i == 8:               #5 Avg
                                         k=k+","
                                 elif i == 9:

@@ -1,4 +1,4 @@
-#Testing set 1+Jan+2014 to 31+Dec+2017
+#Normal set 1+Jan+2015 to 31+Dec+2017
 
 #http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=23;agemin1=20;ageval1=age;class=2;filter=advanced;orderby=runs;spanmax1=31+Dec+2016;spanmin1=1+Jan+2001;spanval1=span;template=results;type=batting;wrappertype=print
 #http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=24;agemin1=21;ageval1=age;class=2;filter=advanced;orderby=runs;spanmax1=31+Dec+2016;spanmin1=1+Jan+2001;spanval1=span;template=results;type=batting;wrappertype=print
@@ -54,52 +54,12 @@ for pgs in lisp:
                                     continue
                                 else:
                                     pl_tab.append(pl);
-                                    #print(pl)
                                     k="";
-                                    i=0;bnd=0;no=0;hun=0;fif=0;t=0;bf=0;fl=0;
+                                    i=0;bnd=0;no=0;hun=0;fif=0;t=0;bf=0;
                                     for data in record.findAll('td'):
-                                            k=data.text.replace('\n','').replace('\t','').replace('*','') 
+                                            k=data.text.replace('\n','').replace('\t','').replace('*','')
                                             i=i+1;
-                                            if i==1 :                  #1 Player
-                                                    k=k+","
-                                            elif i==2 :                #2 Span,Years
-                                                    x1=int(k.split("-")[0])
-                                                    x2=int(k.split("-")[1])
-                                                    sp=x2-x1+1
-                                                    k=k+","+str(sp)+","
-                                            elif i == 4:               #3 Inns
-                                                    t=int(k)
-                                                    k=k+","
-                                            #elif i == 5:               # No/I
-                                            #        no=int(k)/t
-                                            #        k=str(no)+","
-                                            elif i == 6:               #4 R/I
-                                                    ty=int(k)/t
-                                                    k=str(ty)+","
-                                            elif i == 7:               #5 HS
-                                                    k=k+","
-                                            elif i == 8:               #6 Avg
-                                                    k=k+","
-                                            elif i == 9:
-                                                    bf=int(k)
-                                                    k=""
-                                            elif i == 10:              #7 SR
-                                                    k=k+","
-                                            elif i == 11:              #8 100/I
-                                                    hun=int(k)/t
-                                                    k=str(hun)+","
-                                            elif i == 12:              #9 50/I
-                                                    fif=int(k)/t
-                                                    k=str(fif)+","
-                                            elif i == 14:
-                                                    bnd=int(k)
-                                                    k=""
-                                            elif i == 15:                   
-                                                    bnd=bnd+int(k)     #10 6+4/BF
-                                                    bnd=bnd/bf 
-                                                    k=str(bnd)
-                                            else:
-                                                    k=""
+                                            k=k+","
                                             file.write(bytes(k,encoding="ascii",errors='ignore'))
                                     file.write(bytes(s,encoding="ascii",errors='ignore'))
 print(pl_tab)
