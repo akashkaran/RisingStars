@@ -1,9 +1,7 @@
-plist=["1","2","3"]
-for i in plist:
-    print(i)
-pdic={1,2,3}
-for j in pdic:
-    print(j)
-pdic1=(1,2,3)
-for j in pdic1:
-    print(j)
+class Person:
+    def __init__(self,id):
+        self.id=id
+        obama=Person(100)
+        obama.__dict__['age']=49
+        a=len(obama.__dict__)
+        print(a)
