@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta>
+<script src="source/Chart.js"></script>
+<link rel="stylesheet" href="source/bootstrap.css">
+</div>
+<meta>
+<title>Bar CHart</title>
+</head>
+<body>
+<div class="container">
+<canvas id="Chartz"></canvas>
+</div>
+</body>
+<script src="result.js"></script>
+<script>
+var ctx = document.getElementById("Chartz").getContext('2d');
+var labels = jsonfile.jsonarray.map(function(e) {
+   return e.name;
+});
+var dnaive = jsonfile.jsonarray.map(function(e) {
+   return e.naive;
+});
+var dcart = jsonfile.jsonarray.map(function(e) {
+   return e.cart;
+});
+var dicc = jsonfile.jsonarray.map(function(e) {
+   return e.icc;
+});;
+
+var config = {
+   type: 'bar',
+   data: {
+      labels: labels,
+      datasets: [{
+         label: 'Naive',
+         data: dnaive,
+         backgroundColor: 'rgba(255, 99, 132, 0.5)',
+         borderColor: 'rgba(255,99,132,1)',
+         borderWidth: 1
+      },
+      {
+         label: 'Cart',
+         data: dcart,
+         backgroundColor: 'rgba(54, 162, 235, 0.5)',
+         borderColor: 'rgba(54, 162, 235, 1)',
+         borderWidth: 1
+      },
+      {
+         label: 'Icc',
+         data: dicc,
+         backgroundColor:   'rgba(255, 206, 86, 0.5)',
+         borderColor: 'rgba(255, 206, 86, 1)',
+         borderWidth: 1
+      }
+    ]
+  },
+   options: {
+     scales: {
+         yAxes: [{
+             ticks: {
+                 beginAtZero:true
+             }
+         }]
+     }
+ }
+};
+
+var chart = new Chart(ctx, config);
+</script>
+</html>
