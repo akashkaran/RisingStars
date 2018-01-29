@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-Location =r'C:\Users\kiran\Desktop\data tuning\trycsv\exptrain.csv'
+Location =r'C:\Users\kiran\Desktop\RisingStars\Naivebayes\exptrain.csv'
 df = pd.read_csv(Location)
 df['PRS'] = 0
 #1) calculating prior probability
