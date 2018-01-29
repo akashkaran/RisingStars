@@ -3,7 +3,7 @@ import pickle
 # Read the CSV into a pandas data frame (df)
 #   With a df you can do many things
 #   most important: visualize data with Seaborn
-fo=open("icctop100.csv","r")
+fo=open("csv/icctop100.csv","r")
 icc=fo.readlines()
 for i in icc:
     ic=i.split(',')
@@ -12,7 +12,7 @@ for i in icc:
     #print(rank,name)
 fo.close()
 
-fo=open("naive.csv","r")
+fo=open("csv/naive.csv","r")
 naive=fo.readlines()
 for i in naive:
     na=i.split(',')
@@ -21,7 +21,7 @@ for i in naive:
     #print(rank,name)
 fo.close()
 
-fo=open("cart.csv","r")
+fo=open("csv/cart.csv","r")
 cart=fo.readlines()
 for i in cart:
     ca=i.split(',')
