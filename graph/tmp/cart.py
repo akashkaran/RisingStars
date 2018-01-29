@@ -2,10 +2,10 @@ import csv
 import sys
 import json
 
-fieldnames=["name","icc","naive","cart"]
+fieldnames=["name","icc","cart"]
 
 def convert(result):
-  csv_filename = "result.csv"
+  csv_filename = "result2.csv"
   print ("Opening CSV file: "+csv_filename)
   f=open(csv_filename, 'r')
   csv_reader = csv.DictReader(f,fieldnames)

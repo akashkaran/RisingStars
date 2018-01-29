@@ -31,6 +31,7 @@ for i in cart:
 fo.close()
 i_n=[]
 rank=-1
+fop=open('result1.csv','w+')
 for o in icc:
     ic=o.split(',')
     name=ic[2].strip()
@@ -42,9 +43,11 @@ for o in icc:
             #print(name,rank,s.split(',')[0])
             st=name+","+str(rank)+","+str(s.split(',')[0])
             i_n.append(st)
+            fop.write(st)
 #print(i_n)
-ovr=[]
-fop=open('result.csv','w+')
+ovr=[]            
+fop.close()
+fop=open('result2.csv','w+')
 for o in i_n:
     ic=o.split(',')
     #print(ic)
@@ -58,7 +61,7 @@ for o in i_n:
             st1=name+","+str(rank)+","+str(naive)+","+str(s.split(',')[0])+"\n"
             ovr.append(st1)
             fop.write(st1)
-
+fop.close()
 
 
 # Or export it in many ways, e.g. a list of tuples
