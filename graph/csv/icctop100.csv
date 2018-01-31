@@ -1,101 +1,101 @@
-Rank,Rating,Name
-1,876,V. Kohli
-2,872,A.B. de Villiers
-3,865,D.A. Warner
-4,846, Babar Azam
-5,816,R.G. Sharma
-6,808,Q. de Kock
-7,802,J.E. Root
-8,773,F. du Plessis
-9,766,H.M. Amla
-10,750,K.S. Williamson
-11,735,L.R.P.L. Taylor
-12,729,M.S. Dhoni
-13,728,S.P.D. Smith
-14,726,S Dhawan
-15,717,M.J. Guptill
-16,677, Tamim Iqbal
-17,674,A.J. Finch
-18,660,A.D. Hales
-19,658, Mushfiqur Rahim
-20,650,E.J.G. Morgan
-21,649,J.C. Buttler
-22,646,B.A. Stokes
-23,636,K.J. Coetzer
-24,632,A.D. Mathews
-25,625, Mohammad Hafeez
-26,612,T.W.M. Latham
-26,612,A.M. Rahane
-28,608,G.J. Maxwell
-29,606,T.M. Head
-30,605,G.J. Bailey
-31,603,D.A. Miller
-32,599,J.J. Roy
-33,598, Shakib Al Hasan
-34,591,P.R. Stirling
-35,581, Azhar Ali
-36,571,W.U. Tharanga
-37,562, Sarfraz Ahmed
-37,562,N. Dickwella
-39,560,M.R. Marsh
-40,557, Shoaib Malik
-40,557,K.M. Jadhav
-40,557, Mahmudullah
-43,554,E.C. Joyce
-44,549,B.K.G. Mendis
-45,546, Fakhar Zaman
-46,545,J-P. Duminy
-47,539, Soumya Sarkar
-48,535,J.M. Bairstow
-49,533,M.N. Samuels
-50,531,H.D.R.L. Thirimanne
-51,530, Sikandar Raza
-52,525,M.P. Stoinis
-53,524,J.P. Faulkner
-54,522,Moeen Ali
-54,522,K.J. O'Brien
-56,519,W.T.S. Porterfield
-57,517, Mohammad Nabi
-58,513,H. Masakadza
-59,512,M.S. Wade
-60,511, Sabbir Rahman
-60,511,N.T. Broom
-62,509,F. Behardien
-63,508,C.S. MacLeod
-64,503, Sharjeel Khan
-65,497,E. Lewis
-66,496,S.C. Williams
-67,490,S.D. Hope
-68,489,J.O. Holder
-69,487,C.R. Ervine
-69,487, Nasir Hossain
-71,486, Ahmed Shehzad
-71,486,C.H. Gayle
-73,485,L.D. Chandimal
-73,485,D.M. Bravo
-75,481,H.H. Pandya
-76,480,J.D.S. Neesham
-77,473,Imrul Kayes
-78,472,E. Chigumbura
-79,471,N.J. O'Brien
-79,471, Shaiman Anwar
-81,468, Umar Akmal
-82,466, Rahmat Shah
-83,464,M.D. Gunathilaka
-84,460,J. Charles
-85,457,L. Ronchi
-85,457,C. Munro
-87,451,K.A. Pollard
-88,447,C.J. Anderson
-89,445,M.D.K.J. Perera
-90,439,H.M. Nicholls
-90,439, Samiullah Shenwari
-92,433, Anshuman Rath
-93,431, Javed Ahmadi
-94,430, Babar Hayat
-94,430, Imad Wasim
-96,426,R.D. Berrington
-97,424,D. Ramdin
-98,419,S.F. Mire
-99,417,D.A.S. Gunaratne
-100,411,M.J. Santner
+ICC_Rank,Rating,Name
+1,876,V Kohli,
+2,872,AB de Villiers,
+3,823,DA Warner,
+4,816,RG Sharma,
+5,813, Babar Azam,
+6,808,Q de Kock,
+6,808,JE Root,
+8,777,KS Williamson,
+9,773,F du Plessis,
+10,766,HM Amla,
+11,764,MJ Guptill,
+12,736,LRPL Taylor,
+13,729,MS Dhoni,
+14,726,S Dhawan,
+15,724,AJ Finch,
+16,698, Tamim Iqbal,
+17,692,SPD Smith,
+18,656,JC Buttler,
+19,652, Mushfiqur Rahim,
+20,645,JJ Roy,
+21,641,KJ Coetzer,
+22,631,TM Head,
+23,630,BA Stokes,
+24,629,AD Hales,
+25,626,EJG Morgan,
+26,621, Mohammad Hafeez,
+27,619,AD Mathews,
+28,616,MP Stoinis,
+29,612,AM Rahane,
+30,608, Shakib Al Hasan,
+31,603,DA Miller,
+32,597,GJ Maxwell,
+33,590,GJ Bailey,
+33,590,TWM Latham,
+35,583,PR Stirling,
+36,576,MR Marsh,
+37,575, Fakhar Zaman,
+38,574,EC Joyce,
+39,573,WU Tharanga,
+40,566,N Dickwella,
+40,566,JM Bairstow,
+42,561, Mahmudullah,
+43,559, Sikandar Raza,
+44,557,BKG Mendis,
+44,557,KM Jadhav,
+46,548, Sarfraz Ahmed,
+47,545,J-P Duminy,
+48,544, Azhar Ali,
+49,535, Shoaib Malik,
+50,533,MN Samuels,
+50,533, Mohammad Shahzad,
+52,526, Soumya Sarkar,
+53,525,KJ O'Brien,
+54,524,C Munro,
+54,524,WTS Porterfield,
+56,520,C de Grandhomme,
+57,518,HDRL Thirimanne,
+58,517, Mohammad Nabi,
+59,512,H Masakadza,
+60,511,JP Faulkner,
+61,509,F Behardien,
+62,504,Moeen Ali,
+63,500,LD Chandimal,
+63,500,CS MacLeod,
+65,499,MS Wade,
+66,498,NT Broom,
+67,497,E Lewis,
+68,491, Sharjeel Khan,
+68,491, Sabbir Rahman,
+70,490,SD Hope,
+71,489,JO Holder,
+72,486,CH Gayle,
+72,486,SC Williams,
+74,485,DM Bravo,
+75,481,HH Pandya,
+76,479,CR Woakes,
+77,474, Ahmed Shehzad,
+78,472,NJ O'Brien,
+78,472,MDKJ Perera,
+80,468,JDS Neesham,
+81,466, Rahmat Shah,
+82,465,HM Nicholls,
+82,465,MD Gunathilaka,
+84,462,E Chigumbura,
+85,461,Imrul Kayes,
+86,460,J Charles,
+87,459, Nasir Hossain,
+88,458,A Balbirnie,
+88,458,CR Ervine,
+88,458, Haris Sohail,
+91,456, Umar Akmal,
+92,451,KA Pollard,
+93,450, Shaiman Anwar,
+94,447, Anamul Haque,
+95,446,L Ronchi,
+96,439, Samiullah Shenwari,
+97,436,CJ Anderson,
+98,434,Rameez Shahzad,
+99,433, Anshuman Rath,
+100,431, Javed Ahmadi,
