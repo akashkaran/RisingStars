@@ -10,46 +10,48 @@
 </head>
 <body>
 <div class="container">
-<canvas id="Chartz"></canvas>
+<p></p>
+<canvas id="Chartz" alt="Check the source Folder!"></canvas>
 </div>
 </body>
-<script src="result.js"></script>
+<script src="source/graph_ip.js"></script>
 <script>
 var ctx = document.getElementById("Chartz").getContext('2d');
-var labels = jsonfile.jsonarray.map(function(e) {
+var labels="Pl_Name",dnaive=0,dcart=0,dicc=0;
+labels = jsonfile.jsonarray.map(function(e) {   //getting pl names fron json file(source/graph_ip.js)
    return e.name;
 });
-var dnaive = jsonfile.jsonarray.map(function(e) {
+dnaive = jsonfile.jsonarray.map(function(e) {   //getting nb rank
    return e.naive;
 });
-var dcart = jsonfile.jsonarray.map(function(e) {
+dcart = jsonfile.jsonarray.map(function(e) {    //getting cart rank
    return e.cart;
 });
-var dicc = jsonfile.jsonarray.map(function(e) {
+dicc = jsonfile.jsonarray.map(function(e) {   //getting icc relative rank
    return e.icc;
 });;
 
 var config = {
-   type: 'bar',
+   type: 'bar',    //to select type of bar
    data: {
       labels: labels,
       datasets: [{
-         label: 'Naive',
-         data: dnaive,
+         label: 'Naive',   
+         data: dnaive,                                    //ranks from naive list
          backgroundColor: 'rgba(255, 99, 132, 0.5)',
          borderColor: 'rgba(255,99,132,1)',
          borderWidth: 1
       },
       {
-         label: 'Cart',
-         data: dcart,
+         label: 'Cart',   
+         data: dcart,                                     //ranks from cart list
          backgroundColor: 'rgba(54, 162, 235, 0.5)',
          borderColor: 'rgba(54, 162, 235, 1)',
          borderWidth: 1
       },
       {
-         label: 'Icc Relative rank',
-         data: dicc,
+         label: 'Icc Relative rank',  
+         data: dicc,                                      //ranks from icc list
          backgroundColor:   'rgba(255, 206, 86, 0.5)',
          borderColor: 'rgba(255, 206, 86, 1)',
          borderWidth: 1
@@ -60,7 +62,7 @@ var config = {
      scales: {
          yAxes: [{
              ticks: {
-                 beginAtZero:true
+                 beginAtZero:true                         //starting index 0
              }
          }]
      }
