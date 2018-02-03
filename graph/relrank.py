@@ -10,11 +10,12 @@ for o in icc:
     ic_rank=ic[0].strip()
     name=ic[2].strip()
     s="";
-    for s in nblist:
+    inc=11
+    for inc,s in enumerate(nblist):
         if (name in s):
             rank=rank+1
             #ICC name     icc Rank   rel_rank        nb Rank      
-            st=name+"("+ic_rank+"),"+str(rank)+","+str(s.split(',')[0])+"\n"
+            st=name+"  ("+ic_rank+"),"+str(rank)+","+str(s.split(',')[0])+"\n"
             icc_nb.append(st)
             fop.write(st)
             print(st)
