@@ -4,8 +4,8 @@
 #http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=25;agemin1=22;ageval1=age;bowling_positionmax1=4;bowling_positionmin1=1;bowling_positionval1=bowling_position;class=2;filter=advanced;orderby=wickets;spanmax1=31+Dec+2013;spanmin1=01+Jan+2001;spanval1=span;template=results;type=bowling
 #http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=26;agemin1=23;ageval1=age;bowling_positionmax1=4;bowling_positionmin1=1;bowling_positionval1=bowling_position;class=2;filter=advanced;orderby=wickets;spanmax1=31+Dec+2013;spanmin1=01+Jan+2001;spanval1=span;template=results;type=bowling
 
-#training 1 jan 2001 to 31 dec 2013
-
+#training 1 jan 2001 to 31 dec 2013                                                                                                                                               class                                   page
+#http://stats.espncricinfo.com/ci/engine/stats/index.html?                                  bowling_positionmax1=4;bowling_positionmin1=1;bowling_positionval1=bowling_position;class=21;filter=advanced;orderby=wickets;page=5;spanmax1=31+Dec+2013;spanmin1=01+Jan+2001;spanval1=span;template=results;type=bowling
 import urllib
 import urllib.request
 from bs4 import BeautifulSoup
@@ -21,14 +21,15 @@ def make_soup(url):
 #Player Span Mat Inns Overs  Mdns  Runs Wkts  BBI  Ave Econ  SR  4   5
 csv="TrainingSetB.csv"
 file = open(os.path.expanduser(csv),"wb")
-header="Player,Span,Years,Inns,Overs,Mdns/Ove,Runs,Wkts,BBI,Ave,Econ"+"\n"
+header="Player,Span,Years,Inns,Overs,Mdns/Ove,Runs,Wkts,BBI,Ave,Econ,SR"+"\n"
 file.write(bytes(header,encoding="ascii",errors='ignore'))
-substr1=";bowling_positionmax1=4;bowling_positionmin1=1;bowling_positionval1=bowling_position;class=2;filter=advanced;orderby=wickets;"
+substr1=";filter=advanced;orderby=wickets;"
 substr2="spanmax1=31+Dec+2013;spanmin1=01+Jan+2001;spanval1=span;template=results;type=bowling;wrappertype=print";                       #1+Jan+2001 to 31+Dec+2013
-lisp=["http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=23;agemin1=20;ageval1=age;",
-      "http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=24;agemin1=21;ageval1=age;",
-      "http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=25;agemin1=22;ageval1=age;",
-      "http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=26;agemin1=23;ageval1=age;"];
+lisp=["http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=23;agemin1=20;ageval1=age;bowling_positionmax1=4;bowling_positionmin1=1;bowling_positionval1=bowling_position;class=2;",
+      "http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=24;agemin1=21;ageval1=age;bowling_positionmax1=4;bowling_positionmin1=1;bowling_positionval1=bowling_position;class=2;",
+      "http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=25;agemin1=22;ageval1=age;bowling_positionmax1=4;bowling_positionmin1=1;bowling_positionval1=bowling_position;class=2;",
+      "http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=26;agemin1=23;ageval1=age;bowling_positionmax1=4;bowling_positionmin1=1;bowling_positionval1=bowling_position;class=2;",
+      "http://stats.espncricinfo.com/ci/engine/stats/index.html?bowling_positionmax1=4;bowling_positionmin1=1;bowling_positionval1=bowling_position;class=21;"];                                  #under 19 inc
 bw_tab=[];
 o=0;ct=0;
 for pgs in lisp:
@@ -52,7 +53,7 @@ for pgs in lisp:
                                 sp=x2-x1+1
                                 kq1=list1[3].text.replace('\n','').replace('\t','').replace('*','')
                                 inn = int(kq1)
-                                if sp >= 3 and inn >= 10:    
+                                if sp >= 2 and inn >= 10:    
                                         pattern = re.compile("\((.*?)\)")
                                         pl = re.sub(pattern, '', pl)
                                         if any(pl in s for s in bw_tab):
@@ -94,6 +95,8 @@ for pgs in lisp:
                                                     elif i == 10:              #10  Ave         
                                                             k=k+","
                                                     elif i == 11:              #11 Econ
+                                                            k=k+","
+                                                    elif i == 12:
                                                             k=k+","
                                                     else:
                                                             k=""

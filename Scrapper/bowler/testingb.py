@@ -44,7 +44,7 @@ for pgs in lisp:
                                 sp=x2-x1+1
                                 kq1=list1[3].text.replace('\n','').replace('\t','').replace('*','')
                                 inn = int(kq1)
-                                if sp >= 3 and inn >= 10:    
+                                if sp >= 2 and inn >= 10:    
                                         pattern = re.compile("\((.*?)\)")
                                         pl = re.sub(pattern, '', pl)
                                         if any(pl in s for s in bw_tab):
