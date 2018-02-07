@@ -1,1 +1,1 @@
-var jsonfile={jsonarray:[{"name": "Babar Azam", "icc": "1", "naive": "2", "cart": "1"}, {"name": "Q de Kock", "icc": "2", "naive": "1", "cart": "2"}, {"name": "TWM Latham", "icc": "3", "naive": "9", "cart": "10"}, {"name": "MR Marsh", "icc": "4", "naive": "4", "cart": "7"}, {"name": "N Dickwella", "icc": "5", "naive": "5", "cart": "6"}, {"name": "Soumya Sarkar", "icc": "6", "naive": "3", "cart": "9"}, {"name": "Ahmed Shehzad", "icc": "7", "naive": "8", "cart": "5"}]};
+var jsonfile={jsonarray:[]};
