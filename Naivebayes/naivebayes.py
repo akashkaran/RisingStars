@@ -42,7 +42,7 @@ RS_sr_var = data_variance['SR'][data_variance.index == 'RS'].values[0]
 RS_fpi_var = data_variance['50/I'][data_variance.index == 'RS'].values[0]
 RS_bpbf_var = data_variance['6+4/BF'][data_variance.index == 'RS'].values[0]
 
-#2.5) Mean of each feature belongs to class RS
+#2.5) Mean of each feature belongs to class NRS
 NRS_hs_mean = data_means['HS'][data_means.index == 'NRS'].values[0]
 NRS_rpi_mean = data_means['R/I'][data_means.index == 'NRS'].values[0] 
 NRS_avg_mean = data_means['Avrg'][data_means.index == 'NRS'].values[0]
@@ -50,7 +50,7 @@ NRS_sr_mean = data_means['SR'][data_means.index == 'NRS'].values[0]
 NRS_fpi_mean = data_means['50/I'][data_means.index == 'NRS'].values[0]
 NRS_bpbf_mean = data_means['6+4/BF'][data_means.index == 'NRS'].values[0]
 
-#2.6) variance of each feature belongs to class RS
+#2.6) variance of each feature belongs to class NRS
 NRS_hs_var = data_variance['HS'][data_variance.index == 'NRS'].values[0]
 NRS_rpi_var = data_variance['R/I'][data_variance.index == 'NRS'].values[0] 
 NRS_avg_var = data_variance['Avrg'][data_variance.index == 'NRS'].values[0]
@@ -89,6 +89,9 @@ def nb(hs,rpi,avg,sr,fpi,hpi,bpbf,df,index):
        df.loc[index,'PRS']=posterior_RS
        return 'NRS'
 
+
+   
+   
 #testing for testdata csv
 
 Location =r'C:\Users\kiran\Desktop\data tuning\trycsv\TestDataSet.csv'
@@ -107,7 +110,35 @@ print(df3[df3['Class']=='NRS'].count().values[0])
 df3.to_csv('output.csv',index='false',header='false')
 print(df['Class'])
 
-
+#printing avg feature_given_class of each feature in test dataset
+total_hs=0
+total_rpi=0
+total_avg=0
+total_sr=0
+total_fpi=0
+total_bpbf=0
+#avg of all features given class
+for index,row in df3.iterrows():
+   total_hs=total_hs+feature_given_class(row['HS'],RS_hs_mean,RS_hs_var)
+   total_rpi=total_rpi+feature_given_class(row['R/I'],RS_rpi_mean,RS_rpi_var)
+   total_avg=total_avg+feature_given_class(row['Avrg'],RS_avg_mean,RS_avg_var)
+   total_sr=total_sr+feature_given_class(row['SR'],RS_sr_mean,RS_sr_var)
+   total_fpi=total_fpi+feature_given_class(row['50/I'],RS_fpi_mean,RS_fpi_var)
+   total_bpbf=total_bpbf+feature_given_class(row['6+4/BF'],RS_bpbf_mean,RS_bpbf_var)
+print("Total values")
+print(total_hs)
+print(total_rpi)
+print(total_avg)
+print(total_sr)
+print(total_fpi)
+print(total_bpbf)
+print("avg")
+print(total_hs/df3['Inns'].count())
+print(total_rpi/df3['Inns'].count())
+print(total_avg/df3['Inns'].count())
+print(total_sr/df3['Inns'].count())
+print(total_fpi/df3['Inns'].count())
+print(total_bpbf/df3['Inns'].count())
 
 
 
