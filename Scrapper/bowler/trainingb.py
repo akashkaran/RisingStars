@@ -19,12 +19,12 @@ def make_soup(url):
         return soupdata
 #1      2    3   4    5      6     7    8     9    10  11    12 13  14 
 #Player Span Mat Inns Overs  Mdns  Runs Wkts  BBI  Ave Econ  SR  4   5
-csv="TrainingSetB.csv"
+csv="TrainingSetB90's.csv"
 file = open(os.path.expanduser(csv),"wb")
 header="Player,Span,Years,Inns,Overs,Mdns/Ove,Runs,Wkts,BBI,Ave,Econ,SR"+"\n"
 file.write(bytes(header,encoding="ascii",errors='ignore'))
 substr1=";filter=advanced;orderby=wickets;"
-substr2="spanmax1=31+Dec+2013;spanmin1=01+Jan+2001;spanval1=span;template=results;type=bowling;wrappertype=print";                       #1+Jan+2001 to 31+Dec+2013
+substr2="spanmax1=31+Dec+2013;spanmin1=01+Jan+1990;spanval1=span;template=results;type=bowling;wrappertype=print";                       #1+Jan+2001 to 31+Dec+2013
 lisp=["http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=23;agemin1=20;ageval1=age;bowling_positionmax1=4;bowling_positionmin1=1;bowling_positionval1=bowling_position;class=2;",
       "http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=24;agemin1=21;ageval1=age;bowling_positionmax1=4;bowling_positionmin1=1;bowling_positionval1=bowling_position;class=2;",
       "http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=25;agemin1=22;ageval1=age;bowling_positionmax1=4;bowling_positionmin1=1;bowling_positionval1=bowling_position;class=2;",
