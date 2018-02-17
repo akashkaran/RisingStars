@@ -16,7 +16,7 @@ def make_soup(url):
 #Player Span Mat Inns Overs  Mdns  Runs Wkts  BBI  Ave Econ  SR  4   5
 csv="TestingSetB.csv"
 file = open(os.path.expanduser(csv),"wb")
-header="Player,Span,Years,Inns,Overs,Mdns/Ove,Runs,Wkts,BBI,Ave,Econ"+"\n"
+header="Player,Span,Years,Inns,Overs,Mdns/Ove,Runs,Wkts,BBI,Ave,Econ,SR"+"\n"
 file.write(bytes(header,encoding="ascii",errors='ignore'))
 substr1=";bowling_positionmax1=4;bowling_positionmin1=1;bowling_positionval1=bowling_position;class=2;filter=advanced;orderby=wickets;"
 substr2="spanmax1=31+Dec+2017;spanmin1=01+Jan+2014;spanval1=span;template=results;type=bowling;wrappertype=print";                       #1+Jan+2014 to 31+Dec+2017
@@ -86,6 +86,8 @@ for pgs in lisp:
                                                     elif i == 10:              #10  Ave         
                                                             k=k+","
                                                     elif i == 11:              #11 Econ
+                                                            k=k+","
+                                                    elif i == 12:              #12 SR
                                                             k=k+","
                                                     else:
                                                             k=""
