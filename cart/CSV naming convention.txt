@@ -1,0 +1,6 @@
+TestDataSet.csv => Contains test dataset
+TrainingSet.csv => Contains raw data for training dataset which is not classified
+temptrainset.csv=> Contains classified training dataset using trainingSet.csv but imbalanced in nature
+TrainDataSet.csv=> Contains clean, balanced and classified training dataset ready to use for algorithm
+output.csv=> Contains classified test dataset using ml algorithm
+desireop.csv= Contains desired classification of test dataset

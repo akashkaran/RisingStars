@@ -1,9 +1,9 @@
 import pandas as pd
 from math import log
-Location = r'C:\Users\kiran\Desktop\RisingStars\cart\exptrain.csv'
+Location = r'C:\Users\kiran\Desktop\batsman\cart\TrainDataSet.csv'
 df = pd.read_csv(Location)
 #taking only feature columns and class column in dataframe
-df=df[['R/I','HS','Avrg','SR','50/I','6+4/BF','Class']]
+df=df[['HS','Avg','SR','50/I','6+4/BF','Class']]
 
 #dataframe to 2d array conversion
 data = df.as_matrix(columns=None)
@@ -135,14 +135,14 @@ def classify(testdata,tree):
         return classify(testdata,branch)
 
 
-Location= r'C:\Users\kiran\Desktop\RisingStars\cart\TestDataset.csv'
+Location= r'C:\Users\kiran\Desktop\batsman\cart\TestDataset.csv'
 df2 = pd.read_csv(Location)
 printtree(cart)
 #df2 = df2[['R/I','HS','Avrg','SR','50/I','6+4/BF','Class']]
 for index,row in df2.iterrows():
-    value=classify([row['R/I'],row['HS'],row['Avrg'],row['SR'],row['50/I'],row['6+4/BF']],cart)
+    value=classify([row['HS'],row['Avrg'],row['SR'],row['50/I'],row['6+4/BF']],cart)
     for key in value:
         df2.loc[index,'Class']=key
 
 
-#df2.to_csv("output.csv")
+df2.to_csv("output.csv")
