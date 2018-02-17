@@ -1,10 +1,10 @@
 import pandas as pd
 import numpy as np
 
-Location =r'C:\Users\kiran\Desktop\RisingStars\Naivebayes\output.csv'
+Location =r'C:\Users\kiran\Desktop\batsman\nb\output.csv'
 df = pd.read_csv(Location)
 
-Location2 =r'C:\Users\kiran\Desktop\RisingStars\Naivebayes\desireop.csv'
+Location2 =r'C:\Users\kiran\Desktop\batsman\nb\desireop.csv'
 df2 = pd.read_csv(Location2)
 
 count=0;
