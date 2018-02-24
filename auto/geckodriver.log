@@ -1,0 +1,587 @@
+1519482771980	geckodriver	INFO	Listening on 127.0.0.1:51807
+1519482775199	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519482776513	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519482780917	Marionette	INFO	Listening on port 51816
+1519482781021	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_ch*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519482868550	geckodriver	INFO	Listening on 127.0.0.1:51854
+1519482871613	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519482872906	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519482875609	Marionette	INFO	Listening on port 51862
+1519482875810	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15648, Chrome_ChildThread] WARNING: pipe error: 109: 1519482944815	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mo[Parent 12984, Gecko_IOThread] WARNING: pipe error: Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519482946099	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519482948872	Marionette	INFO	Listening on port 51915
+1519482949034	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519483009974	geckodriver	INFO	Listening on 127.0.0.1:51972
+1519483013053	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519483014709	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519483017209	Marionette	INFO	Listening on port 51980
+1519483017344	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/highlighter29
+[Child 7836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7836, Chrome_ChildThread] WARNING: pipe erro[Child 7432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7432, Chrome_ChildT[Parent 9776, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7128, Chrome_ChildT
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+g on port 52058
+1519483259982	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 9572, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9572, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13336, Chrome_ChildThr1519483288254	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 9572, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519483608642	geckodriver	INFO	Listening on 127.0.0.1:52137
+1519483611705	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519483613310	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519483616670	Marionette	INFO	Listening on port 52145
+1519483617069	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 14380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14380, [CChild 2832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ath Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519483797017	Marionette	INFO	Listening on port 52258
+1519483797213	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 13648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17260, Chrome_Ch[Child 11236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519484008989	geckodriver	INFO	Listening on 127.0.0.1:52360
+1519484012036	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519484012854	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519484015735	Marionette	INFO	Listening on port 52368
+1519484016227	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 16964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16964, C[Child 9024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+R Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519484249402	Marionette	INFO	Listening on port 52491
+1519484249549	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 6276, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6276, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8240, Chrome_C[Parent 6276, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519484328884	geckodriver	INFO	Listening on 127.0.0.1:52580
+1519484331988	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519484332800	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519484335542	Marionette	INFO	Listening on port 52588
+1519484335645	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 6632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6632, Chrome_ChildThread[Parent 8740, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11820, Chrome
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519484515821	geckodriver	INFO	Listening on 127.0.0.1:52705
+1519484518884	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519484519652	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519484522407	Marionette	INFO	Listening on port 52713
+1519484522565	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 4248, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4248, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12480, Chrome_ChildTh[Child 16092, Chrome_ChildThread] WARNING: pipe error: 109: file[Parent 4248, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+844
+1519484738308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 11608, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11608, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ble to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519484850424	Marionette	INFO	Listening on port 52931
+1519484850873	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 15888, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15888, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14104, Chro[Child 5060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5060, Chro[Child 9860, Ch*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519484902658	geckodriver	INFO	Listening on 127.0.0.1:53023
+1519484905815	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519484906627	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519484909635	Marionette	INFO	Listening on port 53031
+1519484910006	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 5624, Chrome_ChildThread] WARNING: pipe[Child 15392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15392, Chrome_C[Child 14860, Chrome_Chil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519485015353	geckodriver	INFO	Listening on 127.0.0.1:53145
+1519485018511	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485019408	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485023605	Marionette	INFO	Listening on port 53153
+1519485023820	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 17164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src[Parent 8392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7076, Chrome_Chil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 15100, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1360, Chrome_ChildThread] WAR[Parent 15100, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16600, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519485334952	geckodriver	INFO	Listening on 127.0.0.1:53411
+1519485338079	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485340010	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485342962	Marionette	INFO	Listening on port 53420
+1519485343945	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 17372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+path
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485577990	Marionette	INFO	Listening on port 53538
+1519485578247	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 9840, Chrome_ChildThread] WARNING: pipe error: 109: f1519485605214	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485606339	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485609409	Marionette	INFO	Listening on port 53606
+1519485610617	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 3544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3544, Chrome_Chi[Child 6476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6476, Chrome_ChildThrea[Parent 216, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6520, Chro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519485699399	geckodriver	INFO	Listening on 127.0.0.1:53680
+1519485702521	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485703499	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485706851	Marionette	INFO	Listening on port 53689
+1519485707873	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 13584, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13584, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7660, Chrome_Chi*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519485762736	geckodriver	INFO	Listening on 127.0.0.1:53754
+1519485765941	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485767083	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485769964	Marionette	INFO	Listening on port 53762
+1519485770152	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12416, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12996, Chrome_*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519485822377	geckodriver	INFO	Listening on 127.0.0.1:53800
+1519485825520	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485826445	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485829546	Marionette	INFO	Listening on port 53808
+1519485829733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 17328, Gecko_IOThread] WARNING: pipe error: 109: fil1519485888704	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485889588	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485892332	Marionette	INFO	Listening on port 53894
+1519485892424	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 15000, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1256, Chrome_Chil[Parent 15000, Gecko_IOThread] WUnable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519485930746	Marionette	INFO	Listening on port 53980
+1519485931617	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 8464, Chrome_ChildThread] WARNING: pipe error: 109: f1519486091333	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519486092568	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519486095556	Marionette	INFO	Listening on port 54082
+1519486096839	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 13448, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13448, Gecko_IOThread] WARNING: pipe error: 109Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519486202567	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519486205549	Marionette	INFO	Listening on port 54186
+1519486206791	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 7548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9788, Chrome_ChildT[Child 13044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519486249998	geckodriver	INFO	Listening on 127.0.0.1:54266
+1519486253150	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519486254140	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519486256901	Marionette	INFO	Listening on port 54274
+1519486257386	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 2832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1312, Chrome_ChildTh[Child 7884, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7884, Chrome_Chi[Parent 2832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+t error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 6516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6516, Chrome_Child[Parent 6964, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519487045439	geckodriver	INFO	Listening on 127.0.0.1:54569
+1519487048583	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519487050241	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519487053167	Marionette	INFO	Listening on port 54577
+1519487053921	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 17228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9968, Chrome_ChildThread] WARNING: pJavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 137: TypeError: prefs is undefined
+[Parent 17228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16408, Chrome_Chi*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519487206841	geckodriver	INFO	Listening on 127.0.0.1:54747
+1519487210008	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519487211472	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519487215072	Marionette	INFO	Listening on port 54755
+1519487215352	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 9692, Chrome_ChildThread] WARNING: pipe error: 109: f1519487290115	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519487292061	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519487295082	Marionette	INFO	Listening on port 54907
+1519487295466	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 7340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7340, Chrome_ChildThread] WARNI[Child 15132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15132,[Parent 10584, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8792, Chrome_ChildThread] WARNIN
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519487516752	geckodriver	INFO	Listening on 127.0.0.1:56409
+1519487519783	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519487521128	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519487523749	Marionette	INFO	Listening on port 56445
+1519487524009	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 9736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9736, Chrome_ChildThread] WARNING[Child 1152, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1152, Chrome_Chil[Parent 9280, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13608, Chrome_ChildThread]
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519487633722	geckodriver	INFO	Listening on 127.0.0.1:57602
+1519487637437	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519487639117	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519487641756	Marionette	INFO	Listening on port 57657
+1519487642769	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 12308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16376, Chrome_ChildThrea[Child 1948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/[Parent 12308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16728, Chrome_*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519488228657	geckodriver	INFO	Listening on 127.0.0.1:60478
+1519488231755	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519488233391	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519488236578	Marionette	INFO	Listening on port 60486
+1519488237041	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519488238672	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270
+1519488240882	geckodriver	INFO	Listening on 127.0.0.1:60507
+1519488243929	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519488245403	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519488247741	Marionette	INFO	Listening on port 60515
+1519488248224	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 5272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10584, Chrome_ChildThread] WARNI
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ers\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Parent 16832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6264, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519488954557	geckodriver	INFO	Listening on 127.0.0.1:60874
+1519488957667	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519488959313	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519488962272	Marionette	INFO	Listening on port 60882
+1519488963032	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+[Child 8064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8064, Chrome_Chil*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519491419050	geckodriver	INFO	Listening on 127.0.0.1:61507
+1519491422441	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519491423601	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519491427175	Marionette	INFO	Listening on port 61515
+1519491428000	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7940, Chrome_ChildTh[Child 8604, Chrome_ChildThread] WARNING: pipe error: 109:
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519491608912	geckodriver	INFO	Listening on 127.0.0.1:61555
+1519491611944	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519491612635	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\k\AppData\Local\openvr\openvrpaths.vrpath
+1519491615203	Marionette	INFO	Listening on port 61563
+1519491615643	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

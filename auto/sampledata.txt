@@ -1,0 +1,4 @@
+Player	                    Span	Mat	Inns	NO	Runs	HS	Ave	BF	SR	100	50	 4s	6s	
+WIA Fernando (SL19)	2014-2017	39	38	4	1379	138	40.55	1568	87.94	4	4	146	24
+Shubman Gill (IND19)	2016-2017	10	10	2	777	160	97.12	782	99.36	3	3	97	7
+R Moonsamy (SA19)	2015-2016	17	16	0	365	63	22.81	535	68.22	0	3	36	4		
