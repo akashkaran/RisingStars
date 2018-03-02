@@ -21,7 +21,7 @@ def make_soup(url):
 #Player,Span,Mat,Inns,NO,Runs,HS,Ave,BF ,SR, 100,50, 0,  4s, 6s
 csv="TestingSet.csv"
 file = open(os.path.expanduser(csv),"wb")
-header="Player,Span,Years,Inns,R/I,HS,Avg,SR,100/I,50/I,6+4/BF"+"\n"
+header="Player,Span,Years,Inns,R/I,HS,Avg,SR,100/I,50,50/I,4,6,6+4/BF"+"\n"
 file.write(bytes(header,encoding="ascii",errors='ignore'))
 substr=";spanmax1=31+Dec+2017;spanmin1=1+Jan+2014;spanval1=span;template=results;type=batting;wrappertype=print";                       #1+Jan+2014 to 31+Dec+2017
 lisp=["http://stats.espncricinfo.com/ci/engine/stats/index.html?agemax1=24;agemin1=20;ageval1=age;class=2;filter=advanced;orderby=runs;"];
@@ -90,14 +90,14 @@ for pgs in lisp:
                                                     k=str(hun)+","
                                             elif i == 12:              #9 50/I
                                                     fif=int(k)/t
-                                                    k=str(fif)+","
+                                                    k=k+","+str(fif)+","
                                             elif i == 14:
                                                     bnd=int(k)
-                                                    k=""
+                                                    k=k+","
                                             elif i == 15:                   
                                                     bnd=bnd+int(k)     #10 6+4/BF
                                                     bnd=bnd/bf 
-                                                    k=str(bnd)
+                                                    k=k+","+str(bnd)
                                             else:
                                                     k=""
                                             file.write(bytes(k,encoding="ascii",errors='ignore'))
